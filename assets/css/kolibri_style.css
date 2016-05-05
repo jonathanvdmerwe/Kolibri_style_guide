@@ -34,10 +34,11 @@ body, p {
 }
 
 .button:hover, .button.success:hover, .button.secondary:hover, .button.small:hover, button:hover {
-  background-color: #067c7b;
+  background-color: #996192;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
+  transition: all 0.05s ease-in-out;
 }
 
 
@@ -48,7 +49,7 @@ body, p {
   color: #72486f !important;
 }
 .primary_light {
-  color: #e0b7db !important;
+  color: #e2d1e0 !important;
 }
 .bk_primary {
   background-color: #996192;
@@ -57,24 +58,24 @@ body, p {
   background-color: #72486f;
 }
 .bk_primary_light {
-  background-color: #e0b7db;
+  background-color: #e2d1e0;
 }
 
 
 .action {
-  color: #55aa93;
+  color: #996192;
 }
 .action_dark {
-  color: #067c7b;
+  color: #996192;
 }
 .action_light {
-  color: #067c7b;
+  color: #996192;
 }
 .bk_action {
-  background-color: #55aa93;
+  background-color: #996192;
 }
 .bk_action_dark {
-  background-color: #067c7b;
+  background-color: #996192;
 }
 .bk_action_light {
   background-color: #deede9;
@@ -148,8 +149,8 @@ strong,
 }
 
 .standard-button:hover, .standard-button:active, .standard-button:focus  {
-  background-color: #72486f;
-  border:2px solid #72486f !important;
+  background-color: #996192;
+  border:2px solid #996192 !important;
   outline: none;
 }
 
@@ -245,7 +246,7 @@ strong,
   transition: none;
 }
 .ko_list li:hover {
-  background-color: #e0b7db;
+  background-color: #e2d1e0;
 }
 .ko_list input[type=checkbox] {
   display: inline-block;
@@ -358,7 +359,7 @@ strong,
   -webkit-transition: none; /*safari and chrome */
 }
 .ko_drop_content a:hover, .nested_droplist:hover {
-  background-color: #e0b7db;
+  background-color: #e2d1e0;
   color: #3a3a3a;
   border: none;
 }
@@ -366,7 +367,7 @@ strong,
   display: block;
 }
 .ko_drop_list:hover .ko_drop_btn {
-  background-color: #72486f;
+  /*background-color: #72486f;*/
   border-radius: 4px 4px 0 0;
   box-shadow: 1px 1px 4px 0 #cccccc;
 }
@@ -430,7 +431,7 @@ strong,
   margin-top: -50%;
 }
 .nested_drop_content a:first-child:hover .arrow-left{
-  border-right:15px solid #e0b7db; 
+  border-right:15px solid #e2d1e0; 
 }
 
 /*seam*/
@@ -572,7 +573,7 @@ strong,
   text-align: center;
   width:0;
   border-radius:8px;
-  background-color:#e0b7db;
+  background-color:#e2d1e0;
 }
 
 .ko_progress_text{
@@ -668,7 +669,7 @@ strong,
   color: #FFFFFF;
   width:50%;
   border-radius:5px;
-  background-color:#e0b7db;
+  background-color:#e2d1e0;
 }
 
 
