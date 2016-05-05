@@ -3119,7 +3119,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-sizing: border-box;
   transition: all 0.15s linear; }
   input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
-    background: #fafafa;
+    background: #fbfbfb;
     border-color: #999999;
     outline: none; }
   input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
@@ -3208,7 +3208,7 @@ textarea {
 select {
   -webkit-appearance: none !important;
   border-radius: 0;
-  background-color: #fafafa;
+  background-color: #fbfbfb;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
   background-position: 100% center;
   background-repeat: no-repeat;
@@ -4136,7 +4136,7 @@ ul.pagination {
   display: block;
   width: 100%;
   height: 1rem;
-  background: #fafafa; }
+  background: #fbfbfb; }
   .range-slider.vertical-range {
     position: relative;
     border: 1px solid #dddddd;
@@ -4156,7 +4156,7 @@ ul.pagination {
       height: auto;
       bottom: 0; }
   .range-slider.radius {
-    background: #fafafa;
+    background: #fbfbfb;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
       background: #008cba;
@@ -4164,7 +4164,7 @@ ul.pagination {
       .range-slider.radius .range-slider-handle:hover {
         background: #007ba4; }
   .range-slider.round {
-    background: #fafafa;
+    background: #fbfbfb;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
       background: #008cba;
@@ -4172,7 +4172,7 @@ ul.pagination {
       .range-slider.round .range-slider-handle:hover {
         background: #007ba4; }
   .range-slider.disabled, .range-slider[disabled] {
-    background: #fafafa;
+    background: #fbfbfb;
     cursor: not-allowed;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
@@ -8131,7 +8131,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.83333rem; }
 
 h1 {
-  color: #079493;
+  color: #996192;
   font-size: 53.94016px;
   text-transform: uppercase;
   letter-spacing: 0.25em; }
@@ -8148,7 +8148,7 @@ h2 {
     -webkit-font-smoothing: antialiased; }
   h2.onboard-tasks,
   h2 .onboard-tasks {
-    color: #079493; }
+    color: #996192; }
   h2.onboard,
   h2 .onboard {
     color: #34495e; }
@@ -8165,7 +8165,7 @@ h3 {
   font-size: 27.4272px; }
   h3.scan-text,
   h3 .scan-text {
-    color: #079493;
+    color: #996192;
     text-transform: uppercase;
     letter-spacing: 0.25em; }
 
@@ -8284,7 +8284,7 @@ a {
 button {
   border: none !important;
   color: white;
-  background-color: #079493;
+  background-color: #996192;
   font-size: 14.8564px;
   font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -8314,7 +8314,7 @@ button {
   button.secondary {
     border: none !important;
     color: white;
-    background-color: #dfdfdf;
+    background-color: #fbfbfb;
     font-size: 14.8564px;
     font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -8440,8 +8440,8 @@ button {
     padding: 0.35em 1.5em 0.4em; }
 
 .hollow {
-  border: 1px solid #079493 !important;
-  color: #079493;
+  border: 1px solid #996192 !important;
+  color: #996192;
   background-color: transparent;
   font-size: 14.8564px;
   -webkit-box-shadow: 0 0 0 transparent;
@@ -8466,8 +8466,8 @@ button {
   .hollow:active, .hollow:focus {
     background-color: white; }
   .hollow.primary {
-    border: 1px solid #079493 !important;
-    color: #079493;
+    border: 1px solid #996192 !important;
+    color: #996192;
     background-color: transparent;
     font-size: 14.8564px;
     -webkit-box-shadow: 0 0 0 transparent;
@@ -8491,7 +8491,7 @@ button {
     .hollow.primary:active, .hollow.primary:focus {
       background-color: white; }
     .hollow.primary:hover, .hollow.primary:active {
-      background-color: #079493;
+      background-color: #996192;
       border-color: transparent !important;
       color: white !important; }
   .hollow.secondary {
@@ -8654,16 +8654,16 @@ button[disabled],
       font-weight: 400;
       letter-spacing: 0.0075em;
       -webkit-font-smoothing: antialiased;
-      color: #079493;
+      color: #996192;
       padding: 1rem 0;
       font-size: 1rem;
-      border: 1px solid #079493; }
+      border: 1px solid #996192; }
       .tabs dd a:hover,
       .tabs .tab-title a:hover {
         background-color: #ecedf3; }
     .tabs dd.active a,
     .tabs .tab-title.active a {
-      background-color: #079493;
+      background-color: #996192;
       color: white; }
 
 .tooltip {
@@ -9156,8 +9156,7 @@ form textarea,
     z-index: 400;
     height: 100%;
     left: 0;
-    border-left: 4px solid #cdcfdf;
-    background-color: #eceef3; }
+    background-color: #ffffff; }
 @-webkit-keyframes logoBG {
   .styleguide .sidebar 0%  {
     background-position: 0 50%; }
@@ -9224,7 +9223,7 @@ form textarea,
           padding: 0.25em 2.5em;
           background-color: transparent; }
           .styleguide .sidebar ul.side-nav li a:hover {
-            background-color: #e4e6ee;
+            background-color: #E2D1E0;
             color: #121e21; }
         .styleguide .sidebar ul.side-nav li.divider {
           border: none; }
@@ -9282,7 +9281,7 @@ form textarea,
         .styleguide .sidebar ul.side-nav li.active {
           border-left-color: #95a5a6; }
           .styleguide .sidebar ul.side-nav li.active a {
-            color: #079493; }
+            color: #996192; }
             .styleguide .sidebar ul.side-nav li.active a:first-child:not(button) {
               font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
               font-weight: 400;
@@ -9424,7 +9423,7 @@ body div.ng-scope:first-child,
 .palette-block.palette-green2 div {
   background-color: #7ab3aa; }
 .palette-block.palette-green3 div {
-  background-color: #079493; }
+  background-color: #996192; }
 .palette-block.palette-green4 div {
   background-color: #06807f; }
 .palette-block.palette-yellow1 div {
@@ -9507,7 +9506,7 @@ body div.ng-scope:first-child,
       color: #2d4a50; }
     .font-awesome-list .fa-hover:hover {
       background-color: #e4e6ee;
-      color: #079493; }
+      color: #996192; }
       .font-awesome-list .fa-hover:hover i {
         color: #66b6ab; }
 
