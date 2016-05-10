@@ -67,6 +67,8 @@
                   <li><a href="components.html#colors">Colors</a></li>
                   <li><a href="components.html#typography">Typography</a></li>
                   <li><a href="components.html#buttons">Buttons</a></li>
+                  <li><a href="components.html#tags">Tags</a></li>
+                  <li><a href="components.html#indicator">Indicator</a></li>
                   <li><a href="components.html#forms">Forms</a></li>
                   <li><a href="components.html#list">List</a></li>
                   <li><a href="components.html#cards">Cards</a></li>
@@ -306,9 +308,44 @@
             </div>
 
 
+            
+            <p id="tags">&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Tags:</p>
+
+            <div class="row">
+              <div class="large-6 columns">
+                <span class="ko_tag_text">Trash</span>
+                  <span class="ko_tag">4</span>
+              </div>
+
+               <div class="large-6 columns">
+                  <span class="ko_tag_text">Channel</span>
+                    <span class="ko_tag">Hello</span>
+                    <span class="ko_tag">World</span>
+              </div>
+            </div>
+
+
+            <p id="indicator">&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>Indicator:</p>
+            <div class="row">
+                  <ul class="indicator_list">
+                      <li ><a class="active bar"title='Dashboard'>Dashboard</a></li>
+                      <li><a class="bar" title='Coach'>Coach</a></li>
+                      <li><a class="bar" title='Content'>Content</a></li>
+                      <li><a class="bar" title='Data'>Data</a></li>
+                  </ul>
+            </div>
+
+
+            
             <p id="forms">&nbsp;</p>
+            <p>&nbsp;</p>
             <p>Form Examples:</p>
 
+            <!--Text Field -->
             <div class="row">          
               <div class="large-6 columns">
                 <form>
@@ -331,6 +368,7 @@
               </div>
             </div>
 
+            <!--Text Area-->
             <div class="row">          
               <div class="large-12 columns">
                 <form>
@@ -338,6 +376,36 @@
                     <textarea type="textarea" required></textarea>
                     <span class="bar"></span>
                     <label>Text Area</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!--Text Field Error-->    
+            <p>&nbsp;</p>
+            <p>Form Error:</p>
+            
+            <div class="row">      
+              <div class="large-6 columns">
+                <form>
+                  <div class="ko_text_field_error">
+                    <input type="text" value="abc" required >
+                    <label>User Name</label>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!--Text Field Disabled-->
+            <p>&nbsp;</p>
+            <p>Form Disabled:</p>
+              
+            <div class="row">  
+              <div class="large-6 columns">
+                <form>
+                  <div class="ko_text_field_disabled">
+                    <input type="text" value="Jessica"disabled>
+                    <label>User Name</label>
                   </div>
                 </form>
               </div>
