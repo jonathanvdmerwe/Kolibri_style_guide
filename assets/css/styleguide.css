@@ -3119,7 +3119,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-sizing: border-box;
   transition: all 0.15s linear; }
   input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
-    background: #fbfbfb;
+    background: #f9f9f9;
     border-color: #999999;
     outline: none; }
   input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
@@ -3208,7 +3208,7 @@ textarea {
 select {
   -webkit-appearance: none !important;
   border-radius: 0;
-  background-color: #fbfbfb;
+  background-color: #f9f9f9;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
   background-position: 100% center;
   background-repeat: no-repeat;
@@ -4136,7 +4136,7 @@ ul.pagination {
   display: block;
   width: 100%;
   height: 1rem;
-  background: #fbfbfb; }
+  background: #f9f9f9; }
   .range-slider.vertical-range {
     position: relative;
     border: 1px solid #dddddd;
@@ -4156,7 +4156,7 @@ ul.pagination {
       height: auto;
       bottom: 0; }
   .range-slider.radius {
-    background: #fbfbfb;
+    background: #f9f9f9;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
       background: #008cba;
@@ -4164,7 +4164,7 @@ ul.pagination {
       .range-slider.radius .range-slider-handle:hover {
         background: #007ba4; }
   .range-slider.round {
-    background: #fbfbfb;
+    background: #f9f9f9;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
       background: #008cba;
@@ -4172,7 +4172,7 @@ ul.pagination {
       .range-slider.round .range-slider-handle:hover {
         background: #007ba4; }
   .range-slider.disabled, .range-slider[disabled] {
-    background: #fbfbfb;
+    background: #f9f9f9;
     cursor: not-allowed;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
@@ -8314,7 +8314,7 @@ button {
   button.secondary {
     border: none !important;
     color: white;
-    background-color: #fbfbfb;
+    background-color: #f9f9f9;
     font-size: 14.8564px;
     font-family: "futura-pt", "futura-regular", Futura, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -9152,6 +9152,7 @@ form textarea,
   .styleguide a {
     transition: all 0.5s ease-in-out; }
   .styleguide .sidebar {
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.10);
     position: fixed;
     z-index: 400;
     height: 100%;
